@@ -19,3 +19,25 @@ might be useful. It could be interesting to use [Go](http://golang.org/).
 This project compiles and runs with an earlier version of Arch Linux ARM.
 It's likely that this needs to be updated, and the current version of the
 Raspberry Pi GL examples should be helpful.
+
+GLES 1 vs. GLES 2
+-----------------
+
+Unavailable functions:
+
+  * glPushMatrix
+  * glTranslatef
+  * glPopMatrix
+  * glEnableClientState
+  * glVertexPointer
+  * glTexCoordPointer
+  * glMatrixMode
+  * glLoadIdentity
+  * glFrustumf
+  * glMultMatrixf
+
+Unavailable constants:
+
+  * GL_VERTEX_ARRAY
+  * GL_TEXTURE_COORD_ARRAY
+  * GL_MODELVIEW
